@@ -1,0 +1,223 @@
+
+/*
+Author: Katie Voorobeva
+Description: Dog Free Project
+
+/*******General*******/
+* {box-sizing: border-box;}
+body {
+	min-width: 320px;
+	margin: 0;
+	background-color: #fff;
+	font-family: 'PT Serif', serif;
+	color: #5b5c5d;
+}
+menu {padding-left: 0;margin: 0;}
+h2 {
+	text-transform: uppercase; 
+	font-size: 30px;
+	margin: 0;
+	padding-top: 60px;
+}
+p {margin: 0;text-shadow: 0px 5px 6px #000;}
+a {color: #fff; text-shadow: 0px 5px 6px #000;}
+a:hover {color: #fff;text-decoration: none;}
+img {width: 100%;}
+button {background: transparent;outline: none;}
+.align-center {
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/*******Bg*******/
+.bg-img {
+	background-image: url(../images/bg.jpg);
+}
+.bg {
+	position: relative;
+	width: 100%;
+	height: 992px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.logo {
+	width: 574px;
+	margin: auto;
+}
+h1.title {
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.quest {
+	width: 462px;
+	height: 358px;
+	margin: auto;
+	position: relative;
+	margin-top: 20px;
+}
+.quest:before {
+	content: '';
+	position: absolute;
+	background-color: #000;
+	opacity: 0.57;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	left: 0;
+	right: 0;
+}
+.quest:after {
+	content: '';
+	position: absolute;
+	background-image: url(../images/border.png);
+	width: 497px;
+	height: 394px;
+	margin:auto;
+	left: -20px;
+	right: 0;
+	top: -13px;
+}
+.quest p, .quest button {position: relative;color: #fff; z-index: 99999;}
+.quest p.unmove {padding: 35px 15px; position: relative;}
+.quest p.unmove:after {
+	content: '';
+	position: absolute;
+	width: 242px;
+	height: 41px;
+	background-image: url(../images/line.png);
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: -20px;
+}
+.quest p.move {
+	padding: 30px 40px 0;
+	font-size: 21px;
+	min-height: 150px;
+}
+.quest .btn {
+	margin: 0 30px;
+	width: 154px;
+	height: 68px;
+	text-transform: uppercase;
+}
+.btn-quest {background-image: url(../images/button.png);}
+.questions-container {
+	position: relative;
+	z-index: 9999;
+
+}
+input[type="text"] {
+	position: relative;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+.text {
+	margin-bottom: 15px;
+}
+a.btn span {
+	line-height: 50px;
+	font-weight: bold;
+}
+a.btn span:hover {
+	color: #ffddc2;
+	text-shadow: 1px 9px 20px;
+}
+.quest .carousel-item.bar a {display: none;}
+.bar p.move {
+	height: unset;
+}
+.wrap {
+
+	margin: 0px auto;
+	padding: 5px;
+	width: 406px;
+	border-radius: 10px;
+	background-image: url(../images/bar.png);
+	height: 68px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.prog-bar {
+	height: 25px;
+	background: linear-gradient(to top,#d0300e,#62190f);
+	-webkit-animation-name: slide;
+	-moz-animation-name: slide;
+	-o-animation-name: slide;
+	animation-name: slide;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
+	z-index: 1;
+	position: absolute;
+	width: 375px;
+	border-radius: 50px;
+	top: 20px;
+	left: 17px;
+	box-shadow: inset 1px 2px 2px #000;
+} 
+.btn-finish {
+	position: relative;
+	width: 440px;
+	height: 240px;
+	display: block;
+}
+.btn-finish:before {
+	background-image: url(../images/button-finish.png);
+	width: 440px;
+	height: 240px;
+	position: absolute;
+	content: '';
+	-webkit-background-size: contain;
+	background-size: contain;
+	top: -70px;
+    left: 20px;
+}
+/*******Keyframe*******/
+@-webkit-keyframes slide {
+	0%   { width:   0%; }
+	30%, 
+	60%  { width:  30%; }
+	70%  { width:  60%; }
+	100% { width: 80%; }
+}
+@-moz-keyframes slide {
+	0%   { width:   0%; }
+	30%, 
+	60%  { width:  30%; }
+	70%  { width:  60%; }
+	100% { width: 80%; }
+}
+@-o-keyframes slide {
+	0%   { width:   0%; }
+	30%, 
+	60%  { width:  30%; }
+	70%  { width:  60%; }
+	100% { width: 80%; }
+}
+@keyframes slide {
+	0%   { width:   0%; }
+	30%, 
+	60%  { width:  30%; }
+	70%  { width:  60%; }
+	100% { width: 80%; }
+}
+
+
+
+
+
+
+
+
+
+
