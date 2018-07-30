@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+<body>
+	<!-- BG -->
+	<div class="bg bg-img text-center">
+		<div class="logo">
+			<img src="images/logo.png" alt="">
+		</div>
+		<div class="quest">
+			<p class="unmove">Прежде чем вы войдете в Игру #1 с рейтингом 18+, мы должны задать вам несколько вопросов.</p>
+			<div class="questions-container">
+				<div id="question" class="carousel slide" data-interval="false" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<p class="move" alt="First slide" style="padding-top: 50px;">Вам уже есть 18 лет?</p>
+							<a class="btn btn-quest" href="#question" role="button" data-slide="next">
+								<span>Да</span>
+							</a>
+
+							<a class="btn btn-quest" href="#question" role="button" data-slide="next">
+								<span>Нет</span>
+							</a>
+						</div>
+						<div class="carousel-item">
+							<p class="move" alt="Second slide">2. В игре Вам встретится много  соблазнительных девушек.  Вы готовы к этому?</p>
+							<a class="btn btn-quest" href="#question" role="button" data-slide="next">
+								<span>Да</span>
+							</a>
+							<a class="btn btn-quest" href="#question" role="button" data-slide="next"> 
+								<span>Нет</span>
+							</a>  
+						</div>
+						<div class="carousel-item bar">
+							<p class="move" alt="Third slide">Подождите, ответы проверяются... Проверка возможности регистрации...</p>
+							<div class="wrap">
+								<div class="prog-bar"></div>
+							</div>
+
+						</div>
+
+						<div class="carousel-item">
+							<p class="unmove" alt="Fours slide">Спасибо! Вы можете немедленно начинать игру!</p>
+							<p class="move" alt="Fours slide">Нажмите на кнопку «Продолжить» для начала игры.</p>
+							<a class="btn-finish" href="#">
+								<span>Продолжить</span>
+							</a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End BG -->
+
+
+<!-- jQuery -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- Main -->
+<script src="js/wow.min.js"></script>
+<script>new WOW().init();</script>
+<script src="js/script.js"></script>
+</body>
+</html>
